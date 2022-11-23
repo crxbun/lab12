@@ -208,8 +208,8 @@ public class FamilyTree
 		{
 			FamilyTree tree = new FamilyTree();
 			System.out.println("Tree:\n" + tree + "\n**************\n");
-			TreeNode ancestor = tree.getMostRecentCommonAncestor("Phillip", "Jill");
-			System.out.println("Most recent common ancestor of Phillip and Jill is " + ancestor.getName());
+			TreeNode ancestor = tree.getMostRecentCommonAncestor("Bilbo", "Frodo");
+			System.out.println("Most recent common ancestor of Bilbo and Frodo is " + ancestor.getName());
 		}
 		catch (IOException x)
 		{
